@@ -1,4 +1,12 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11164810&assignment_repo_type=AssignmentRepo)
-# Project 4: KVS Cache
+This is a cache system that uses 3 different types of caches to store, extract, and manipulate data.
 
-See wiki for instructions: https://github.com/UCSC-CSE-130/project4-kvs-cache/wiki/README
+The 3 types of caches:
+- First in First out
+  -> Replaces the earliest item stored
+- Least Recently Used:
+  -> Replaces the item that is used the least
+- Clock Replacement:
+  -> Markes every item as either used multiple times or not used multiple times and replaces the first item that is not used multiple times
+  -> Algorithm to update an item used when used and occasionally marks used items as not used after a period of time.
+
+Program created to work with key value pairs, can be updated to more advanced data types if needed
